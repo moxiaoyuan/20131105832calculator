@@ -14,108 +14,127 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="c91-bV-Ezi">
-                                <rect key="frame" x="57" y="345" width="30" height="30"/>
+                                <rect key="frame" x="39" y="359" width="44" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iJv-Uo-DYD">
-                                <rect key="frame" x="116" y="345" width="30" height="30"/>
+                                <rect key="frame" x="103" y="359" width="45" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="2"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f1u-Wa-7ZM">
-                                <rect key="frame" x="172" y="345" width="30" height="30"/>
+                                <rect key="frame" x="167" y="359" width="45" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="3"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aIT-dh-J0w">
-                                <rect key="frame" x="57" y="287" width="30" height="30"/>
+                                <rect key="frame" x="39" y="294" width="44" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="4"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="y6P-lW-1Ax">
-                                <rect key="frame" x="116" y="287" width="30" height="30"/>
+                                <rect key="frame" x="103" y="294" width="45" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="5"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Jf-Gt-8no">
-                                <rect key="frame" x="223" y="287" width="30" height="30"/>
+                                <rect key="frame" x="236" y="294" width="45" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="+"/>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="yGa-XO-7St">
-                                <rect key="frame" x="57" y="112" width="196" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" id="yGa-XO-7St">
+                                <rect key="frame" x="39" y="101" width="242" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="p5S-Bu-sDZ">
-                                <rect key="frame" x="172" y="287" width="30" height="30"/>
+                                <rect key="frame" x="167" y="294" width="45" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="6"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uPF-KK-URa">
-                                <rect key="frame" x="57" y="229" width="30" height="30"/>
+                                <rect key="frame" x="39" y="229" width="44" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="7"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="X3r-g7-8zy">
-                                <rect key="frame" x="116" y="229" width="30" height="30"/>
+                                <rect key="frame" x="103" y="229" width="45" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="8"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BK8-SJ-sga">
-                                <rect key="frame" x="172" y="229" width="30" height="30"/>
+                                <rect key="frame" x="167" y="229" width="45" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="9"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UcD-e7-Gsl">
-                                <rect key="frame" x="223" y="229" width="30" height="30"/>
+                                <rect key="frame" x="236" y="229" width="45" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="-"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yzX-kV-4SG">
-                                <rect key="frame" x="223" y="173" width="30" height="30"/>
+                                <rect key="frame" x="236" y="166" width="45" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="×"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Rgb-7O-WVc">
-                                <rect key="frame" x="172" y="173" width="30" height="30"/>
+                                <rect key="frame" x="167" y="165" width="45" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="÷"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TlL-cj-BFm">
-                                <rect key="frame" x="116" y="173" width="30" height="30"/>
+                                <rect key="frame" x="103" y="165" width="45" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Del"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fFG-Rg-SHf">
-                                <rect key="frame" x="57" y="173" width="30" height="30"/>
+                                <rect key="frame" x="39" y="165" width="44" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="C"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bCU-eM-pPP">
-                                <rect key="frame" x="223" y="345" width="30" height="85"/>
+                                <rect key="frame" x="236" y="359" width="45" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="="/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="om5-up-e1O">
-                                <rect key="frame" x="116" y="400" width="30" height="30"/>
+                                <rect key="frame" x="39" y="424" width="109" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="0"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9g8-ad-OCW">
-                                <rect key="frame" x="172" y="400" width="30" height="30"/>
+                                <rect key="frame" x="167" y="424" width="45" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88589153764701578" green="1" blue="0.81415921179473771" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="."/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.62933232151049334" green="0.86182957028906493" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="115" y="271"/>
+            <point key="canvasLocation" x="-109" y="286"/>
         </scene>
     </scenes>
 </document>
