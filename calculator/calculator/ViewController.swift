@@ -15,85 +15,90 @@ class ViewController: UIViewController {
     var huancun = 0.0
     var huancun2:Double?
 
+    @IBOutlet weak var xianshi: UITextField!
     @IBAction func num0(sender: UIButton) {
-        点按("0")
+        click("0")
     }
     @IBAction func num1(sender: UIButton) {
-        点按("1")
+        click("1")
     }
     @IBAction func num2(sender: UIButton) {
-        点按("2")
+        click("2")
     }
     @IBAction func num3(sender: UIButton) {
-        点按("3")
+        click("3")
     }
     @IBAction func num4(sender: UIButton) {
-        点按("4")
+        click("4")
     }
     @IBAction func num5(sender: UIButton) {
-        点按("5")
+        click("5")
     }
     @IBAction func num6(sender: UIButton) {
-        点按("6")
+        click("6")
     }
     @IBAction func num7(sender: UIButton) {
-        点按("7")
+        click("7")
     }
     @IBAction func num8(sender: UIButton) {
-        点按("8")
+        click("8")
     }
     @IBAction func num9(sender: UIButton) {
-        点按("9")
+        click("9")
     }
     @IBAction func point(sender: UIButton) {
-        点按(".")
+        click(".")
     }
     @IBAction func add(sender: UIButton) {
-        calculator.设置当前算法(.加法)
-        求值()
+        click("+")
+        calculator.setdqsf(.add)
+        temp()
     }
     @IBAction func jian(sender: UIButton) {
-        calculator.设置当前算法(.减法)
-        求值()
+        click("_")
+        calculator.setdqsf(.jian)
+        temp()
     }
     @IBAction func cheng(sender: UIButton) {
-        calculator.设置当前算法(.乘法)
-        求值()
+        click("*")
+        calculator.setdqsf(.cheng)
+        temp()
     }
     @IBAction func chu(sender: UIButton) {
-        calculator.设置当前算法(.除法)
-        求值()
+        click("÷")
+        calculator.setdqsf(.chu)
+        temp()
     }
     @IBAction func C(sender: UIButton) {
         xshc = ""
         huancun = 0.0
         huancun2 = nil
-        calculator.设置当前算法(.未选择)
-        self.屏幕.text = ""
+        calculator.setdqsf(.none)
+        self.xianshi.text = ""
     }
     @IBAction func dengyu(sender: UIButton) {
-        求值()
+        temp()
     }
-    func 点按(数字:String) {
-        xshc += 数字
-        self.屏幕.text = 显示缓存
+    func click(number:String) {
+        xshc += number
+        self.xianshi.text = xshc
     }
-    func 求值() {
+    func temp() {
         
         if !xshc.isEmpty {
-            let 临时 = xshc as NSString
-            huancun = 临时.doubleValue
+            let linshi = xshc as NSString
+            huancun = linshi.doubleValue
             xshc = ""
         }
-        let 临时 = huancun
-        var 结果 = ""
+        let linshi = huancun
+        var result = ""
         
-        if let 前一个数字 = huancun2 {
-            结果 = 计算器.求结果(前一个数字, 被操作数: 临时)
+        if let fornt_number = huancun2 {
+            result = calculator.qresult(fornt_number,test2: linshi)
             
-            self.屏幕.text = 结果
-            let 临 = 结果 as NSString
-            huancun2 = 临.doubleValue
+            self.xianshi.text = result
+            let lin = result as NSString
+            huancun2 = lin.doubleValue
         } else {
             huancun2 = huancun
             huancun = 0.0
@@ -102,7 +107,7 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        屏幕.editing
+        xianshi.editing
         // Do any additional setup after loading the view, typically from a nib.
     }
 
