@@ -24,9 +24,8 @@ struct calcu {
         case jian
         case cheng
         case chu
-        //case pingfang
-        //case zhishumi
         case none
+        case delete
     }
     
     func qresult(test1:Double, test2:Double) ->String {
@@ -44,15 +43,6 @@ struct calcu {
         case .chu where test2 != 0 :
             return1 = "\(test1 / test2)"
             break
-        //case .pingfang:
-            //return1 = "\(test1 * test1)"
-        //case .zhishumi:
-            //var linshi = test1
-            //let inttest2 = Int(test2)
-            //for _ in 1..<inttest2 {
-                //linshi *= test1
-            //}
-            //return1 = "\(linshi)"
         case .none:
             return1 = "未选择算法！"
             break

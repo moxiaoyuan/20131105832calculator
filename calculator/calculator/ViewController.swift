@@ -71,6 +71,11 @@ class ViewController: UIViewController {
     }
     @IBAction func C(sender: UIButton) {
         xshc = ""
+        self.xianshi.text = "清空当前输入"
+    }
+   
+    @IBAction func AC(sender: UIButton) {
+        xshc = ""
         huancun = 0.0
         huancun2 = nil
         calculator.setdqsf(.none)

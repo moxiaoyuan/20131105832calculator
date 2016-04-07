@@ -14,7 +14,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iJv-Uo-DYD">
-                                <rect key="frame" x="103" y="359" width="45" height="43"/>
+                                <rect key="frame" x="104" y="336" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="2"/>
@@ -23,7 +23,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f1u-Wa-7ZM">
-                                <rect key="frame" x="167" y="359" width="45" height="43"/>
+                                <rect key="frame" x="161" y="336" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="3"/>
@@ -32,7 +32,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aIT-dh-J0w">
-                                <rect key="frame" x="39" y="294" width="44" height="43"/>
+                                <rect key="frame" x="47" y="279" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="4"/>
@@ -40,17 +40,8 @@
                                     <action selector="num4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="My3-A9-fem"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="y6P-lW-1Ax">
-                                <rect key="frame" x="103" y="294" width="45" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="5"/>
-                                <connections>
-                                    <action selector="num5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1AA-ME-cLv"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Jf-Gt-8no">
-                                <rect key="frame" x="236" y="294" width="45" height="43"/>
+                                <rect key="frame" x="218" y="279" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="+"/>
@@ -58,15 +49,15 @@
                                     <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kIy-eh-YqY"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" id="yGa-XO-7St">
-                                <rect key="frame" x="39" y="101" width="242" height="43"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" id="yGa-XO-7St">
+                                <rect key="frame" x="47" y="108" width="227" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="p5S-Bu-sDZ">
-                                <rect key="frame" x="167" y="294" width="45" height="43"/>
+                                <rect key="frame" x="161" y="279" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="6"/>
@@ -75,7 +66,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uPF-KK-URa">
-                                <rect key="frame" x="39" y="229" width="44" height="43"/>
+                                <rect key="frame" x="47" y="222" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="7"/>
@@ -84,7 +75,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="X3r-g7-8zy">
-                                <rect key="frame" x="103" y="229" width="45" height="43"/>
+                                <rect key="frame" x="104" y="222" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="8"/>
@@ -93,7 +84,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BK8-SJ-sga">
-                                <rect key="frame" x="167" y="229" width="45" height="43"/>
+                                <rect key="frame" x="161" y="222" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="9"/>
@@ -102,7 +93,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UcD-e7-Gsl">
-                                <rect key="frame" x="236" y="229" width="45" height="43"/>
+                                <rect key="frame" x="218" y="222" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="-"/>
@@ -111,7 +102,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yzX-kV-4SG">
-                                <rect key="frame" x="236" y="166" width="45" height="42"/>
+                                <rect key="frame" x="218" y="165" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="×"/>
@@ -120,22 +111,16 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Rgb-7O-WVc">
-                                <rect key="frame" x="167" y="165" width="45" height="43"/>
+                                <rect key="frame" x="161" y="165" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.95686274509803926" green="0.99607843137254903" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="÷"/>
                                 <connections>
                                     <action selector="chu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="253-7G-pDB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TlL-cj-BFm">
-                                <rect key="frame" x="103" y="165" width="45" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Del"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fFG-Rg-SHf">
-                                <rect key="frame" x="39" y="165" width="44" height="43"/>
+                                <rect key="frame" x="104" y="165" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="C"/>
@@ -144,7 +129,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bCU-eM-pPP">
-                                <rect key="frame" x="236" y="359" width="45" height="108"/>
+                                <rect key="frame" x="218" y="336" width="56" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="="/>
@@ -153,7 +138,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9g8-ad-OCW">
-                                <rect key="frame" x="167" y="424" width="45" height="43"/>
+                                <rect key="frame" x="161" y="393" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="."/>
@@ -162,7 +147,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="c91-bV-Ezi">
-                                <rect key="frame" x="39" y="359" width="44" height="43"/>
+                                <rect key="frame" x="47" y="336" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="1"/>
@@ -171,13 +156,31 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="om5-up-e1O">
-                                <rect key="frame" x="39" y="424" width="109" height="43"/>
+                                <rect key="frame" x="47" y="393" width="113" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="0"/>
                                 <connections>
                                     <action selector="num0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tar-Tj-1Hw"/>
                                     <action selector="num1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gl8-VR-yT9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="y6P-lW-1Ax">
+                                <rect key="frame" x="104" y="279" width="56" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95575117842263457" green="1" blue="0.85658609137865627" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="num5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1AA-ME-cLv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yJN-gb-Aez">
+                                <rect key="frame" x="47" y="165" width="56" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.99607843139999996" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="AC"/>
+                                <connections>
+                                    <action selector="AC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L9o-py-VSr"/>
                                 </connections>
                             </button>
                         </subviews>
